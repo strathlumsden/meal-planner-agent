@@ -7,7 +7,9 @@ authors = [
     { name = "Strath Lumsden", email = "strath.lumsden@outlook.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.13.4",
+]
 
 [project.scripts]
 meal-planner-agent = "meal_planner_agent:main"
